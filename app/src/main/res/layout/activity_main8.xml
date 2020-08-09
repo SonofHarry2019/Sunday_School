@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:text="S. Iman Classes"
+        android:textColor="#009688"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text"
+        android:layout_marginTop="45dp"
+        android:text="Students: Humza, Leen, Lina, Yahya, Zainab"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text1"
+        android:layout_marginTop="45dp"
+        android:text="First Hour: Level 2"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text2"
+        android:text="Islamic Studies"
+        android:textColor="#009688"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text3"
+        android:text="Arabic Reading and Writing"
+        android:textColor="#009688"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text4"
+        android:layout_marginTop="45dp"
+        android:text="Break"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text5"
+        android:layout_marginTop="45dp"
+        android:text="Second Hour: Level 10"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text6"
+        android:text="Quran Memorization"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text7"
+        android:text="Promised Paradise"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text8"
+        android:text="Tafseer of Surah Mariam"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+</RelativeLayout>

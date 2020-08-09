@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="45"
+        android:fontFamily="serif"
+        android:text="Sunday School
+                      Masjid an-Noor"
+        android:textAllCaps="false"
+        android:textColor="#009688"
+        android:textIsSelectable="false"
+        android:textSize="53sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="450dp"
+        android:background="#009688"
+        android:text="Activity"
+        android:textSize="13dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:background="#009688"
+        android:text="Hours"
+        android:textSize="13dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="350dp"
+        android:background="#009688"
+        android:text="Salat Times"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:background="#009688"
+        android:text="bulletin"
+        android:textSize="13dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="350dp"
+        android:background="#009688"
+        android:text="Faculty"
+        android:textSize="13dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:background="#009688"
+        android:text="Log In"
+        android:textSize="13dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="210dp"
+        android:layout_height="313dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/nma_logo" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="S. Shakeela classes"
+        android:textColor="#009688"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text"
+        android:layout_marginTop="45dp"
+        android:text="Students: Ayah, Fayrouz, Haneen, Maha, Meryam, Sameeha, Yasmin, Yumnah"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text1"
+        android:layout_marginTop="45dp"
+        android:text="First Hour: Level 10"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text2"
+        android:text="Islamic Studies"
+        android:textColor="#009688"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text3"
+        android:text="Word to word Surah Baqarah with Tafseer"
+        android:textColor="#009688"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/Text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text4"
+        android:text="Meaning and Tafseer"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text5"
+        android:layout_marginTop="45dp"
+        android:text="Break"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text6"
+        android:layout_marginTop="45dp"
+        android:text="Second Hour: Level 7"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text7"
+        android:text="Islamic Studies"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text8"
+        android:text="Arabic Writing and Vocabulary"
+        android:textColor="#009688"
+        android:textSize="24sp" />
+
+</RelativeLayout>

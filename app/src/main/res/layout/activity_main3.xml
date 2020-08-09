@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:fontFamily="serif"
+        android:text="Every Sunday from 10:45 am - 2:00 pm"
+        android:layout_marginTop="45dp"
+        android:textAlignment="textStart"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:gravity="start"
+        android:layout_below="@+id/textView2"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:text="First Hour: 11:00 am - 12:15 pm"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:text="Break: 12:15 pm - 1:00 pm"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        android:text="Second Hour: 1:00 pm - 2:00 pm"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview3"
+        android:text="Dhuhr Time: 2:00pm - 2:15pm"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview4"
+        android:text="Pickup: 2:15 pm - 2:30 pm"
+        android:textColor="#009688"
+        android:textSize="28dp"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        android:text="Hours of Operations"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="55sp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="3dp" />
+
+</RelativeLayout>
